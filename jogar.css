@@ -1,0 +1,89 @@
+.bodyInGame {
+  background-image: url("imagens/InGame/arenaPadrao.png");
+
+  width: 100%;
+  position: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  max-width: auto;
+}
+
+body,
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+.main {
+  height: 100%;
+}
+
+.navbar {
+  display: none;
+}
+
+div#imgs img {
+  max-width: 130px;
+}
+
+img.active {
+  box-shadow: 0 0 1em gold;
+  border-radius: 7px;
+  background-color: rgba(255, 217, 0, 0.45);
+}
+
+/* formatação cartas*/
+
+div#imgs img {
+  max-width: 130px;
+}
+
+div.container-cards {
+  position: absolute;
+  left: 15%;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0%;
+}
+
+.def,
+.atk {
+  position: absolute;
+  bottom: 3px;
+}
+
+.atk {
+  margin-left: 16px;
+  color: white;
+}
+
+.def {
+  margin-left: 110px;
+  color: white;
+}
+
+/* Slots */
+
+div.container-slots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 30%;
+}
+
+div.slot-arena-p1 {
+  height: 180px;
+  width: 120px;
+  max-width: 130px;
+}
+
+div.slot-arena-p1.destaque {
+  box-shadow: 0 0 1em gold;
+  border-radius: 7px;
+  background-color: rgba(255, 217, 0, 0.45);
+}
